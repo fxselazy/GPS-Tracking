@@ -1,7 +1,7 @@
 (() => {
     function run(){
         let form = document.createElement('form')
-        let inp_t_action = document.createElement('inputl')
+        let inp_t_action = document.createElement('input')
         let text_area = document.createElement('textarea')
         let inp_start = document.createElement('input')
         let inp_reset = document.createElement('input')
@@ -15,7 +15,8 @@
         form.appendChild(inp_reset)
         form.appendChild(inp_use)
         form.appendChild(submit)
+        console.log(form)
         document.body.appendChild(form)
     }
     run()
-})
+})();
